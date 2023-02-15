@@ -1,0 +1,41 @@
+2023-01-03 12:04:49.702  INFO 18340 --- [main] com.spring.exam.ExamApplication          : Starting ExamApplication using Java 1.8.0_121 on DESKTOP-P93RHII with PID 18340 (D:\ExamaClinique\Exam\target\classes started by khalil in D:\ExamaClinique\Exam)
+2023-01-03 12:04:49.739  INFO 18340 --- [main] com.spring.exam.ExamApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-01-03 12:04:50.453  INFO 18340 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-03 12:04:50.539  INFO 18340 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 4 JPA repository interfaces.
+2023-01-03 12:04:51.057  INFO 18340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2023-01-03 12:04:51.063  INFO 18340 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-03 12:04:51.063  INFO 18340 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-01-03 12:04:51.174  INFO 18340 --- [main] o.a.c.c.C.[.[localhost].[/cabinet]       : Initializing Spring embedded WebApplicationContext
+2023-01-03 12:04:51.174  INFO 18340 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1317 ms
+2023-01-03 12:04:51.359  INFO 18340 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-03 12:04:51.383  INFO 18340 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2023-01-03 12:04:51.459  INFO 18340 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-03 12:04:51.511  INFO 18340 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-03 12:04:51.608  INFO 18340 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-03 12:04:51.615  INFO 18340 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-01-03 12:04:52.061  INFO 18340 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-03 12:04:52.067  INFO 18340 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-03 12:04:52.714  WARN 18340 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-03 12:04:52.875  INFO 18340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path '/cabinet'
+2023-01-03 12:04:52.911  INFO 18340 --- [main] com.spring.exam.ExamApplication          : Started ExamApplication in 3.534 seconds (JVM running for 4.133)
+2023-01-03 12:04:52.919  INFO 18340 --- [main] c.spring.exam.appRunners.BeanRunnerOne   : Bean One run method Started !!
+2023-01-03 12:04:52.920  INFO 18340 --- [main] c.spring.exam.appRunners.BeanRunnerOne   :  Bean One run ->  reset method
+2023-01-03 12:04:53.105  INFO 18340 --- [main] c.spring.exam.appRunners.BeanRunnerTwo   : Bean Two run method Started !!
+2023-01-03 12:05:00.025  INFO 18340 --- [task-1] c.s.exam.configuration.loggingAspect     : In method retrieveRendezVous : 
+2023-01-03 12:05:00.042  INFO 18340 --- [task-1] c.s.exam.configuration.loggingAspect     :  AfterReturning of method retrieveRendezVous : 
+2023-01-03 12:05:00.042  INFO 18340 --- [task-1] c.s.exam.configuration.loggingAspect     :  Out of method retrieveRendezVous : 
+2023-01-03 12:05:15.003  INFO 18340 --- [task-2] c.s.exam.configuration.loggingAspect     : In method retrieveRendezVous : 
+2023-01-03 12:05:15.011  INFO 18340 --- [task-2] c.s.exam.configuration.loggingAspect     :  AfterReturning of method retrieveRendezVous : 
+2023-01-03 12:05:15.012  INFO 18340 --- [task-2] c.s.exam.configuration.loggingAspect     :  Out of method retrieveRendezVous : 
+2023-01-03 12:05:30.010  INFO 18340 --- [task-3] c.s.exam.configuration.loggingAspect     : In method retrieveRendezVous : 
+2023-01-03 12:05:30.012  INFO 18340 --- [task-3] c.s.exam.configuration.loggingAspect     :  AfterReturning of method retrieveRendezVous : 
+2023-01-03 12:05:30.012  INFO 18340 --- [task-3] c.s.exam.configuration.loggingAspect     :  Out of method retrieveRendezVous : 
+2023-01-03 12:05:45.002  INFO 18340 --- [task-4] c.s.exam.configuration.loggingAspect     : In method retrieveRendezVous : 
+2023-01-03 12:05:45.015  INFO 18340 --- [task-4] c.s.exam.configuration.loggingAspect     :  AfterReturning of method retrieveRendezVous : 
+2023-01-03 12:05:45.015  INFO 18340 --- [task-4] c.s.exam.configuration.loggingAspect     :  Out of method retrieveRendezVous : 
+2023-01-03 12:06:00.005  INFO 18340 --- [task-5] c.s.exam.configuration.loggingAspect     : In method retrieveRendezVous : 
+2023-01-03 12:06:00.007  INFO 18340 --- [task-5] c.s.exam.configuration.loggingAspect     :  AfterReturning of method retrieveRendezVous : 
+2023-01-03 12:06:00.008  INFO 18340 --- [task-5] c.s.exam.configuration.loggingAspect     :  Out of method retrieveRendezVous : 
+2023-01-03 12:06:05.262  INFO 18340 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-03 12:06:05.264  INFO 18340 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-03 12:06:05.268  INFO 18340 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
